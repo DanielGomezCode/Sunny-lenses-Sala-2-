@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/banner-principal.css">
     <link rel="stylesheet" href="css/desempeño.css">
+    <link rel="stylesheet" href="css/carrusel.css">
     <link rel="icon" href="img/icono.png">
 </head>
 <body>
@@ -72,37 +73,26 @@
                     CARRUSEL 
         ===================================
     -->
-    <section class="carrusel">
-        <div class="slider-container container">
-            <a class="slider-arrow" id="before" href=""><i class="fa-solid fa-arrow-left"></i></a>
-
-            <div class="slider-body" data-id="1">
-                <img src="img/img-carrusel-1.png" alt="testimonio1">
-                <div class="informacion-slider">
-                    <img src="img/stars.png" alt="calificacion">
-                    <p>"It's such a game changer, and if you wear prescription glasses i'd soy Life-changing</p>
-                    <p>Andrew.C</p>
-                </div>
-            </div>
-            <div class="slider-body" data-id="2">
-                <img src="img/img-carrusel-2.png" alt="testimonio2">
-                <div class="informacion-slider">
-                    <img src="img/stars.png" alt="calificacion">
-                    <p>"The reality is that learning to program is something very new for me."</p>
-                    <p>Alex.B</p>
-                </div>
-            </div>
-            <div class="slider-body" data-id="3">
-                <img src="img/img-carrusel-3.png" alt="testimonio3">
-                <div class="informacion-slider">
-                    <img src="img/stars.png" alt="calificacion">
-                    <p>"I find it fascinating that in just 3 days this page will be excellent, ¡good job!"</p>
-                    <p>Clara.T</p>
-                </div>
-            </div>
-            <a class="slider-arrow" id="after" href=""><i class="fa-solid fa-arrow-right"></i></a>
+    <section class="slider">
+    <div class="texto-slider">
+        <p>VERIFIED CUSTOMER REVIEWS</p>
+        <h3>Customer lookbook</h3>
+    </div>
+    <div class="contenedor-slider">
+        <div class="slider-izquierdo">
+            <i class="fa-solid fa-less-than"></i>
         </div>
-    </section>
+        <div class="slider-imagen">
+            <img name="imagen">
+        </div>
+        <div class="slider-derecho">
+            <i class="fa-solid fa-greater-than"></i>
+        </div>
+    </div>
+</section>
+
+
+
     <!--
         ===================================
                     FORMULARIO 
@@ -129,5 +119,6 @@
     </section>
     <!--Documentos JS-->
     <script src="js/header.js"></script>
+    <script src="js/carrusel.js"></script>
 </body>
 </html>
