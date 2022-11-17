@@ -1,0 +1,22 @@
+.etiquetas{
+    font-family: 'roboto', sans-serif;
+
+}
+
+.etiquetas {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   
+}
+
+.etiquetas div{
+    text-align: center;
+}
+
+.etiquetas h2{
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 50px;
+    padding-left: 25px;
+}
