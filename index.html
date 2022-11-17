@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/banner-principal.css">
     <link rel="stylesheet" href="css/desempeño.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link rel="stylesheet" href="css/etiquetas.css">
     <link rel="stylesheet" href="css/heroes.css">
     <link rel="stylesheet" href="css/carrusel.css">
     <link rel="icon" href="img/icono.png">
@@ -109,9 +111,26 @@
                     ETIQUETAS 
         ===================================
     -->
-    <article class="etiquetas">
+    <section>
+        <div class="etiquetas_box">
+            <h2> FIND A <br> LOCATION </h2>
+                <i id="icono_principal" class="fa-sharp fa-solid fa-location-arrow"></i>
+                <a href="">Learn More<i class="fa-sharp fa-solid fa-arrow-right"></i> </a>
+        </div>  
+            
+        <div class="etiquetas_box">
+            <h2>BROWSE OUR <br> FRAME STYLES</h2>
+                 <i id="icono_principal" class="fa-solid fa-glasses"></i>
+                 <a href="">Explore frames<i class="fa-sharp fa-solid fa-arrow-right"></i> </a>
+        </div>
 
-    </article>
+        <div class="etiquetas_box">
+            <h2>EXPLORE OUR <br> LENS OPTIONS </h2>
+                <i id="icono_principal" class="fa-solid fa-magnifying-glass"></i>
+                <a href="">Explore lenses<i class="fa-sharp fa-solid fa-arrow-right"></i> </a>
+        </div>
+        
+    </section>
     <!--
         ===================================
                     CARRUSEL 
@@ -143,7 +162,23 @@
         ===================================
     -->
     <article class="formulario">
+        <form action="" class="formulario">
+          <h1 class="formulario_titulo">Contact us</h1>
+         <input type="text" class="formulario_input">
+         <label for="" class="formulario_label">Full Name</label>
 
+         <input type="text" class="formulario_input">
+         <label for="" class="formulario_label">Email</label>
+
+         <input type="text" class="formulario_input">
+         <label for="" class="formulario_label">Cellphone number</label>
+
+         <input type="text" class="formulario_input">
+         <label for="" class="formulario_label">Message</label>
+         <input type="Submit" value="Send" class="formulario_submit">
+       
+        </form>
+        
     </article>
     <!--
         ===================================
@@ -211,6 +246,7 @@
     </section>
     <!--Documentos JS-->
     <script src="js/header.js"></script>
+    <script src="js/formulario.js"></script>
     <script src="js/carrusel.js"></script>
 </body>
 </html>
